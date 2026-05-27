@@ -1,0 +1,43 @@
+# Privacy Policy for AllYourMemory
+
+**Effective Date:** May 27, 2026
+
+Thank you for choosing **AllYourMemory**. We are committed to protecting your personal information and your absolute right to privacy. 
+
+This Privacy Policy explains how our application operates, how it handles your data, and why your privacy is perfectly secure with us. **Please read this policy carefully.**
+
+---
+
+## 1. 100% On-Device, Offline-First Architecture
+Unlike traditional note-taking or AI applications that rely on cloud servers and third-party APIs, **AllYourMemory operates strictly as a 100% local, offline-first application.** 
+
+We do not utilize cloud-based AI services, nor do we host or manage any backend servers for your data. **This means we (the Developers) do not collect, intercept, store, or have any access to your notes, audio recordings, visual assets, or files.**
+
+---
+
+## 2. On-Device Processing Details
+All intelligence features within AllYourMemory are powered entirely by your device’s own processor and secure local frameworks. There is zero external data transmission.
+
+*   **Voice Transcriptions:** Audio recordings and voice-to-text features are processed entirely on-device using Apple's local Speech Recognition APIs. Your voice never leaves your device.
+*   **Offline OCR (Text Extraction):** Text recognition in photos and videos is calculated locally via Apple’s native Vision framework.
+*   **Sentiment & Tag Extraction:** Mood tags and keyword classification are computed offline using Apple's secure on-device Natural Language framework.
+*   **Local Generative AI (LLM):** All AI text improvements, summaries, and advanced tag generations are processed 100% offline using `llama.cpp` and your loaded local GGUF models. No text prompts are ever sent to any remote servers.
+
+---
+
+## 3. Data Storage and Retention
+*   **Local Storage only:** All your notes, imported files, transcribes, and tags are stored in your device's secure local SwiftData database.
+*   **No Third-Party Analytics or SDKs:** We do not include third-party tracking, advertising SDKs, or analytics telemetry. Your memory vault is completely isolated.
+*   **Retention:** Since your data is stored strictly on your physical device, we do not retain or delete your data. You have full control. If you choose to delete the AllYourMemory application, all your locally saved files and data will be permanently deleted from your device.
+
+---
+
+## 4. Third-Party Web Links and Downloads
+If you choose to download local LLM models (such as `.gguf` files) within the model library view, those downloads are handled securely via standard direct download URLs or imported manually via the local Files app. No personal identifier or usage statistics are tracked during this process.
+
+---
+
+## 5. Contact Us
+If you have any questions, feedback, or concerns about this Privacy Policy or our on-device offline practices, please contact us directly at:
+
+*   **Email:** puyue2023@gmail.com
